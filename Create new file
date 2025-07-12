@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <title>عطر براند مود</title>
+  <style>
+    body {
+      background-color: white;
+      font-family: 'Tahoma', sans-serif;
+      color: #333;
+      text-align: center;
+      padding: 30px;
+    }
+
+    img {
+      width: 250px;
+      border-radius: 15px;
+      margin-bottom: 30px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    }
+
+    .note {
+      margin-top: 30px;
+      font-size: 18px;
+      color: #444;
+    }
+
+    .qualities {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 8px;
+      font-size: 17px;
+    }
+
+    .qualities div {
+      width: 240px;
+      padding: 10px;
+      border-radius: 10px;
+      color: white;
+      font-weight: bold;
+    }
+
+    .q1 { background-color: #e74c3c; }     /* فاكهي */
+    .q2 { background-color: #f39c12; }     /* حلو */
+    .q3 { background-color: #8e6e53; }     /* خشبي */
+    .q4 { background-color: #d35400; }     /* فانيلا */
+    .q5 { background-color: #e91e63; }     /* ورد */
+    .q6 { background-color: #9b59b6; }     /* زهري */
+    .q7 { background-color: #3498db; }     /* ناعم */
+    .q8 { background-color: #2ecc71; }     /* حمضيات */
+  </style>
+</head>
+<body>
+
+  <h2>عطر براند مود</h2>
+
+  <img src="https://i.ibb.co/gMpK7Pyd/Screenshot-Instagram.jpg" alt="عطر براند مود">
+
+  <div class="qualities">
+    <div class="q1">1 - فاكهي</div>
+    <div class="q2">2 - حلو</div>
+    <div class="q3">3 - خشبي</div>
+    <div class="q4">4 - فانيلا</div>
+    <div class="q5">5 - ورد</div>
+    <div class="q6">6 - زهري</div>
+    <div class="q7">7 - ناعم</div>
+    <div class="q8">8 - حمضيات</div>
+  </div>
+
+  <div class="note">
+    <p>براند مود من أجود أنواع العطور</p>
+    <p>توجد خدمة توصيل</p>
+  </div>
+
+</body>
+</html>
